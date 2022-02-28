@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: React
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: React
 
 Let's kick it up a notch and build a modular and modern front end application using React!
 
-Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. 
+Like with project one, the Unit 1 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. 
 
 You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
 
