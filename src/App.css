@@ -5,7 +5,8 @@ body {
 }
 
 .noDisplay {
-	display: none;
+	/* display: none; */
+	background: url('https://i.imgur.com/apU0IgY.jpg');
 }
 
 

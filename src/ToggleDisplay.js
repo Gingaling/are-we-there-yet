@@ -1,6 +1,6 @@
-import ./App.css from './App.css';
+// import ./App.css from './App.css';
 export default
 
 function ToggleDisplay() {
-    document.body.element.classList.toggle("noDisplay";)
+    document.body.element.classList.toggle("noDisplay");
 }
