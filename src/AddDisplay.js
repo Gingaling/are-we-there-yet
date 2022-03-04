@@ -3,7 +3,7 @@ import './App.css';
 
 export default function AddDisplay() {
 	return (
-		<div className='App'>
+		<body className='App' id='prime-container'>
 			<header className='App-header'>
 				<p>Are We There Yet, <span>Worm</span>?</p>
 				<img src={Wormy} className='App-logo' alt='Wormy' />
@@ -11,6 +11,6 @@ export default function AddDisplay() {
 					Let's Begin
 				</button>
 			</header>
-		</div>
+		</body>
 	);
 }
