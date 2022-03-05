@@ -1,15 +1,19 @@
-export default 
+import React from 'react'
+import Wormy from './Wormy-Brown.gif'
+import './App.css'
 
-function App()  {
-    let originAddress = '757 Sutter Street, San Francisco, CA 94109';
-    
-    let destinationAddress = 'One South Van Ness, San Francisco, CA';
-
-    let url=`https://maps.googleapis.com/maps/api/directions/json?origin=${originAddress}&destination=${destinationAddress}&key=AIzaSyBiFnOrtD1ruSpWDH2jPvT8dqp1C5SAgJ0`;
-
-    return (
-        
-        fetch(url)
-        .then(res)(() => res.JSON())
-        .then(res)(() => console.log(res.JSON()))  )
-    }
+export default function App() {
+  return (
+    <body className="App" id="prime-container">
+      <header className="App-header">
+        <p>
+          Are We There Yet, <span>Worm</span>?
+        </p>
+        <img src={Wormy} className="App-logo" alt="Wormy" />
+        <button type="submit" id="startButton">
+          Let's onClick
+        </button>
+      </header>
+    </body>
+  )
+}

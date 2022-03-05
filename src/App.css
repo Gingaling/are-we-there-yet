@@ -23,12 +23,13 @@ body {
 p {
 	background: none;
 	font-size: 90px;
-	color: rgb(142, 57, 79);
+	color: rgb(53, 22, 193);
+	text-shadow:4px 4px 28px #dacece;
 	font-weight: bolder;
 	font-style: oblique;
 }
 button {
-	color: purple;
+	color: rgb(165, 214, 215);
 	font-weight: bolder;
 	font-size: larger;
 	height: 50px;
@@ -37,12 +38,15 @@ button {
 	margin: 30px;
 	border-color: red;
 	border-style: double ;
-	background: white;
+	background: #1b13ac54;
 }
 
 span {
 	background: none;
-	color: blue;
+	text-shadow:4px 4px 28px #280505;
+	outline-color: 2px black;
+	color: rgb(255, 0, 212);
+	
 }
 
 @media (prefers-reduced-motion: no-preference) {
