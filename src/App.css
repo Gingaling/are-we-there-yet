@@ -1,11 +1,11 @@
 body {
-	background-image: url("https://i.imgur.com/zBUrdg9.jpg");
+	background-image: url("https://i.imgur.com/kCbcePQ.jpg");
 	background-position: no-repeat;
 	background-size: cover;
 }
 
 .noDisplay {
-	/* display: none; */
+	display: none;;
 	background: url('https://i.imgur.com/apU0IgY.jpg');
 }
 
@@ -15,7 +15,6 @@ body {
 }
 
 .App-logo {
-	background: none;
 	height: 40vmin;
 	pointer-events: none;
 }
@@ -23,29 +22,30 @@ body {
 p {
 	background: none;
 	font-size: 90px;
-	color: rgb(53, 22, 193);
-	text-shadow:4px 4px 28px #dacece;
-	font-weight: bolder;
+	color: rgb(40, 93, 208);
+	text-shadow:8px 8px 8px #dacece;
+	font-weight: 800;
 	font-style: oblique;
 }
 button {
 	color: rgb(165, 214, 215);
 	font-weight: bolder;
 	font-size: larger;
-	height: 50px;
+	height: 60px;
 	width: 190px;
 	border-radius: 50px;
 	margin: 30px;
-	border-color: red;
-	border-style: double ;
-	background: #1b13ac54;
+	border-color: rgba(23, 218, 232, 0.83);
+	border-style: double;
+	border-width: 10px;
+	background: #1a11cbb4;
 }
 
 span {
 	background: none;
-	text-shadow:4px 4px 28px #280505;
+	text-shadow: 8px 8px 8px #280505;
 	outline-color: 2px black;
-	color: rgb(255, 0, 212);
+	color: rgb(0, 195, 255);
 	
 }
 

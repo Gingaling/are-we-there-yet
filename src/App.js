@@ -1,17 +1,25 @@
 import React from 'react'
-import Wormy from './Wormy-Brown.gif'
+import Wormy from './Wormy-Blue.png'
 import './App.css'
 
 export default function App() {
+
+	function HandleOnClick() {
+		const b = document.querySelector('body');
+		b.createAttribute{class};
+		b.class = "noDisplay";
+		return ();
+	}
+
   return (
-    <body className="App" id="prime-container">
+    <body className="App">
       <header className="App-header">
+        [- ]{' '}
         <p>
           Are We There Yet, <span>Worm</span>?
         </p>
         <img src={Wormy} className="App-logo" alt="Wormy" />
-        <button type="submit" id="startButton">
-          Let's onClick
+        <button id="startButton" onclick = {HandleOnClick}>Let's Begin
         </button>
       </header>
     </body>
