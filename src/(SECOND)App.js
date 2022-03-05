@@ -1,5 +1,5 @@
 import React from 'react'
-import AddDisplay from './App'
+import AddDisplay from './(NoDisp)App'
 // import ToggleDisplay from './ToggleDisplay'
 
 function App() {
