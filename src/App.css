@@ -1,7 +1,15 @@
 body (
-    display: flex:
-)
-
-section {
+    display: flex;
+    )
     
+    /* Form stylings */
+    .wrapper {
+        font-family: Fredoka+One, sans-serif;
+        padding: 5px 20px;
+        font-weight: bold;
+
+}
+
+#taskPullDown {
+    margin-left: 10px;
 }

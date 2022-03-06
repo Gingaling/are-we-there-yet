@@ -1,20 +1,21 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 
-function App() {
-  return (
-    <div className="wrapper">
+export default function FormSubmission() {
+    // const handleSubmit() => event => {
+        .preventDefault();
+        alert('You have submitted the form.');    }
+        return (
+        <div className="wrapper">
       <h1>Welcome to Are You There Yet?</h1>
-      <form>
-      <fieldset>
-        <label htmlFor="Name">Name
-        <input type="text" id="Name"/>
-        </label>
-     </fieldset>
-      <button type="submit">Submit</button>
-     </form>
+      <form onSubmit = {handleSubmit}>
+        <fieldset>
+          <label htmlFor="Name ">
+            <p>Name</p>
+            <input type="text" id="Name" />
+          </label>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   )
-}
-
-export default App;
