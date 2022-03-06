@@ -18,7 +18,7 @@ export default function App() {
           Are We There Yet, <span>Worm</span>?
         </p>
         <img src={Wormy} className="App-logo" alt="Wormy" />
-        <button id="startButton" onclick = {HandleOnClick}>Let's Begin
+        <button id="startButton" onclick = `{handleOnClick}>Let's Begin
         </button>
       </header>
     </body>
